@@ -14,6 +14,10 @@ const showData = () => {
   //console.log('AAAAAAAA');
   getDataCoronaFromApiV2.then(data => data.json()).then(dt => {
     console.log(dt);
+    //return dt;
   });
 }
-showData();
+export const api = {
+  showData
+};
+//showData();

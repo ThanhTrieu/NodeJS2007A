@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.20.0",
+    "esm": "^3.2.25",
     "node-fetch": "^2.6.1"
   }
 }
